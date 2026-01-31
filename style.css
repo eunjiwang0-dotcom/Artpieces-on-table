@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 11pt;
+  line-height: 15pt;
+}
+
+h1 {
+  text-align: center;
+  font-size: 13pt;
+}
+
+table {
+  width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+}
+
+table, tr, td, th {
+  border: 1px dotted black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  font-weight: bold;
+}
+
+li {
+  margin-left: 20px;
+}
+
+footer {
+  font-size: 9pt;
+  margin: 10px;
+  text-align: center;
+}
+
+a{
+  color: black;
+  cursor: pointer;
+}
+
+
+.hovergrey:hover{
+  background-color: lightgrey;
+}
+
+img{
+  width: 120px;
+  height: 150px;
+}
+
+.imgbox {
+  width: 130px;
+  height:160px;
+}
+
+.descriptionbox {
+  width:200px;
+}
+
+.white{
+  color: white;
+}
+
+details{
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 120px;   
+  height: 150px; 
+}
+
+.carousel-img {
+  width: 120px;
+  height: 150px;
+  display: block;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: white;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 2px 6px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-btn.prev { left: 4px; }
+.carousel-btn.next { right: 4px; }
+
+/* 마우스 올렸을 때만 버튼 보이게 하고 싶으면 */
+.carousel-btn { opacity: 0; }
+.carousel:hover .carousel-btn { opacity: 1; }
+
+@media screen and (max-width: 704px) {
+
+}
+
+
